@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contato</title>
 </head>
+
 <body>
+    <div id="contato">
     <h1>Contato</h1>
+    <div id="menu">
+    <a href="index.html">Voltar</a>
+    </div>
+    </div>
+    <div id="ancoras"></div>
+ <h3 align="center" id="h2">Achou algum erro? que pena, preencha esse formulario e nos conte como foi a sua experiência</h3>
+
+ <form class="formulario" method="post" action="enviaDados.php">
+        
+    <h2 class="titulo">Formulário de Contato</h2>
+    <label class="label">
+        
+        <input type="text" class="input-bordas" placeholder="Nome" required="">
+        <span class="focus-border"> <i></i> </span>
+    
+    </label>
+    <label class="label">
+        
+        <input type="email" class="input-bordas" placeholder="E-mail" required="">
+        <span class="focus-border"> <i></i> </span>
+    
+    </label>
+    <label class="label">
+        
+        <input type="number" class="input-bordas" placeholder="Idade" required="" min="0" max="100">
+        <span class="focus-border"> <i></i> </span>
+    
+    </label>
+    <label class="label">
+        
+        <input type="datetime-local" class="input-bordas" required="">
+        <span class="focus-border"> <i></i> </span>
+    
+    </label>
+    <label class="naoexibir">
+        <span>Não preencher:</span><br>
+        <input type="text" name="url" value=""></p>
+    </label> 
+    <label class="label">
+        
+        <textarea type="text" class="input-bordas textarea" rows="4" placeholder="Assunto" required=""></textarea>
+        <span class="focus-border"> <i></i> </span>
+    
+    </label>
+    <button class="button-form borda-inversa">Enviar</button>
+</form>  
+
 </body>
+
 </html>
