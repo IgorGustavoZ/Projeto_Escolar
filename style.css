@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
 }
 #h2{
     color: #757575;
@@ -116,8 +116,13 @@ body{
 }
 
 table{
-   margin-left: 5%;
-   margin-right: 20%;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 0.5vw;
+    margin: 0px;
 }
 
 #bibliografia dl{
