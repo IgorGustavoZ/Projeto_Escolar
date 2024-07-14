@@ -115,8 +115,16 @@ body{
     margin-left: 15px;
 }
 
+#tabela{
+    overflow-x: auto;
+}
+
+thead{
+    background-color: rgb(236, 236, 236);
+}
 table{
     border-collapse: collapse;
+    margin-right: 10%;
 }
 
 td, th{
